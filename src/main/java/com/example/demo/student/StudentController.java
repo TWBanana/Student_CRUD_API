@@ -9,7 +9,7 @@ import java.util.List;
  * Created by Kevin on 4/6/21
  */
 @RestController // make this class to serve as a REST end point
-@RequestMapping("api/v1/student")
+@RequestMapping("/")
 public class StudentController {
 
     private final StudentService studentService;
